@@ -29,13 +29,13 @@
                               <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-war-plugin</artifactId>
-		    <executables>/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java</executable>
+		    <executable>/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java</executable>
                     <version>2.4</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-source-plugin</artifactId>
-		    <executables>/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java</executable>
+		    <executable>/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java</executable>
                     <version>2.1.2</version>
                 </plugin>
             </plugins>
@@ -44,7 +44,7 @@
                        <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
-		    <executables>/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java</executable>
+		    <executable>/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java</executable>
                 <configuration>
                     <archive>
                         <addMavenDescriptor>false</addMavenDescriptor>
