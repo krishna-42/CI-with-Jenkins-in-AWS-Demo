@@ -9,15 +9,15 @@
 
     <distributionManagement>
         <repository>
-            <id>nexus</id>
+            <id>maven-release</id>
             <url>http://35.200.221.151:8081/nexus/content/repositories/maven-release</url>
         </repository>
     </distributionManagement>
-	
+<!--
     <modules>
         <module>project</module>
     </modules>
-
+-->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	<maven.compiler.source>1.8</maven.compiler.source>
