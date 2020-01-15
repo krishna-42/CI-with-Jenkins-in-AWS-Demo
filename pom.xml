@@ -8,10 +8,10 @@
     <name>Project Build</name>
 
     <distributionManagement>
-        <snapshotRepository>
-            <id>nexus-snapshots</id>
-            <url>http://35.200.221.151:8081/nexus/content/repositories/snapshots</url>
-        </snapshotRepository>
+        <repository>
+            <id>maven-release</id>
+            <url>http://35.200.221.151:8081/nexus/content/repositories/maven-release</url>
+        </repository>
     </distributionManagement>
 	
     <modules>
