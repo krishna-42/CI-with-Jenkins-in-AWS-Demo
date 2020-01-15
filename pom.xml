@@ -64,12 +64,6 @@
          				</goals>
       				</execution>
    			</executions>
-			<distributionManagement>
-				<snapshotRepository>
-					<id>nexus-snapshots</id>
-      					<url>http://35.200.221.151:8081/nexus/content/repositories/snapshots</url>
-   				</snapshotRepository>
-			</distributionManagement>
    			<configuration>
       				<serverId>nexus</serverId>
       				<nexusUrl>http://35.200.221.151:8081/nexus/</nexusUrl>
