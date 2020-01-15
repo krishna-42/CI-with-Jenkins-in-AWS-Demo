@@ -25,16 +25,16 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-    <build>
-	<distributionManagement>
+    	<distributionManagement>
 		<snapshotRepository>
 		<id>nexus-snapshots</id>
       		<url>http://35.200.221.151:8081/nexus/content/repositories/snapshots</url>
    		</snapshotRepository>
 	</distributionManagement>
+    <build>
         <pluginManagement>
             <plugins>
-                              <plugin>
+                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-war-plugin</artifactId>
                     <version>2.4</version>
